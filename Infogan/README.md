@@ -5,7 +5,7 @@ Majority of the work is inspired by **https://github.com/eriklindernoren/Keras-G
 However, I did some changes:
 1. Made the network resemble more like the one specified in the paper.
 2. Changed the mutual-information loss function, to ignore the *H(c)* part, since it can be assumed to be a constant. 
-3. Hyperparameter **$\lambda$** is set to 3, to emphasize more on mutual information, which in turn results in a better disentangled representation.
+3. Hyperparameter **λ** is set to 3, to emphasize more on mutual information, which in turn results in a better disentangled representation.
 4. Sample the Gaussian noise from **[-1,1]**, instead of original **[0,1]**, since real images are normalized to **[-1,1]**.
 
 Some notes:
