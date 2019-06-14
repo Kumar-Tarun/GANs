@@ -27,6 +27,8 @@ class INFOGAN():
 
         optimizer = Adam(0.0002, 0.5)
         losses = ['binary_crossentropy', self.mutual_info_loss]
+		
+        # We can even use categorical_crossentropy in place of the defined mutual info loss function, it gives similar results.
 
         # Build and the discriminator and recognition network
         self.discriminator, self.auxilliary = self.build_disk_and_q_net()
