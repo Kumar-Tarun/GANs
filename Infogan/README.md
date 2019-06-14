@@ -1,4 +1,4 @@
-The script *infogan.py* is an implementation of the following paper : **[Chen, Xi & Duan, Yan & Houthooft, Rein & Schulman, John & Sutskever, Ilya & Abbeel, Pieter. (2016). InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets.](https://arxiv.org/abs/1606.03657)**
+The script *infogan.py* is an implementation of the following paper : *Chen, Xi & Duan, Yan & Houthooft, Rein & Schulman, John & Sutskever, Ilya & Abbeel, Pieter. (2016). InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets.*
 
 Majority of the work is inspired by **https://github.com/eriklindernoren/Keras-GAN/tree/master/infogan.**
 
