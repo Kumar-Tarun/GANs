@@ -3,13 +3,14 @@ The script *infogan.py* is an implementation of the following paper : *Chen, Xi 
 Majority of the work is inspired by **https://github.com/eriklindernoren/Keras-GAN/tree/master/infogan.**
 
 However, I did some changes:
-For MNIST:
+
+For **MNIST**:
 1. Made the network resemble more like the one specified in the paper.
 2. Changed the mutual-information loss function, to ignore the *H(c)* part, since it can be assumed to be a constant. 
 3. Hyperparameter **λ** is set to 3, to emphasize more on mutual information, which in turn results in a better disentangled representation.
 4. Sample the Gaussian noise from **[-1,1]**, instead of original **[0,1]**, since real images are normalized to **[-1,1]**.
 
-For CelebA:
+For **CelebA**:
 1. Same as above. Changed the dimension of latent code to 250.
 2. Same as above.
 3. **λ** is set to 2.
